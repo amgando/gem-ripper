@@ -1,0 +1,1271 @@
+###########################################################
+## Do NOT use this node dump for any purpose other than  ##
+## debug and research.  Compatibility is not guaranteed. ##
+###########################################################
+
+# @ NODE_SCOPE (line: 144)
+# +- nd_tbl: :code,:pattern
+# +- nd_args:
+# |   (null node)
+# +- nd_body:
+#     @ NODE_BLOCK (line: 1)
+#     +- nd_head:
+#     |   @ NODE_FCALL (line: 1)
+#     |   +- nd_mid: :require
+#     |   +- nd_args:
+#     |       @ NODE_ARRAY (line: 1)
+#     |       +- nd_alen: 1
+#     |       +- nd_head:
+#     |       |   @ NODE_STR (line: 1)
+#     |       |   +- nd_lit: "ripper"
+#     |       +- nd_next:
+#     |           (null node)
+#     +- nd_next:
+#         @ NODE_BLOCK (line: 2)
+#         +- nd_head:
+#         |   @ NODE_FCALL (line: 2)
+#         |   +- nd_mid: :require
+#         |   +- nd_args:
+#         |       @ NODE_ARRAY (line: 2)
+#         |       +- nd_alen: 1
+#         |       +- nd_head:
+#         |       |   @ NODE_STR (line: 2)
+#         |       |   +- nd_lit: "ostruct"
+#         |       +- nd_next:
+#         |           (null node)
+#         +- nd_next:
+#             @ NODE_BLOCK (line: 3)
+#             +- nd_head:
+#             |   @ NODE_FCALL (line: 3)
+#             |   +- nd_mid: :require
+#             |   +- nd_args:
+#             |       @ NODE_ARRAY (line: 3)
+#             |       +- nd_alen: 1
+#             |       +- nd_head:
+#             |       |   @ NODE_STR (line: 3)
+#             |       |   +- nd_lit: "pp"
+#             |       +- nd_next:
+#             |           (null node)
+#             +- nd_next:
+#                 @ NODE_BLOCK (line: 41)
+#                 +- nd_head:
+#                 |   @ NODE_DEFN (line: 34)
+#                 |   +- nd_mid: :valid
+#                 |   +- nd_defn:
+#                 |       @ NODE_SCOPE (line: 41)
+#                 |       +- nd_tbl: :pattern
+#                 |       +- nd_args:
+#                 |       |   @ NODE_ARGS (line: 34)
+#                 |       |   +- nd_ainfo->pre_args_num: 1
+#                 |       |   +- nd_ainfo->pre_init:
+#                 |       |   |   (null node)
+#                 |       |   +- nd_ainfo->post_args_num: 0
+#                 |       |   +- nd_ainfo->post_init:
+#                 |       |   |   (null node)
+#                 |       |   +- nd_ainfo->first_post_arg: (null)
+#                 |       |   +- nd_ainfo->rest_arg: (null)
+#                 |       |   +- nd_ainfo->block_arg: (null)
+#                 |       |   +- nd_ainfo->opt_args:
+#                 |       |   |   (null node)
+#                 |       |   +- nd_ainfo->kw_args:
+#                 |       |       (null node)
+#                 |       |   +- nd_ainfo->kw_rest_arg:
+#                 |       |       (null node)
+#                 |       +- nd_body:
+#                 |           @ NODE_BLOCK (line: 35)
+#                 |           +- nd_head:
+#                 |           |   @ NODE_ITER (line: 35)
+#                 |           |   +- nd_iter:
+#                 |           |   |   @ NODE_CALL (line: 35)
+#                 |           |   |   +- nd_mid: :each
+#                 |           |   |   +- nd_recv:
+#                 |           |   |   |   @ NODE_CALL (line: 35)
+#                 |           |   |   |   +- nd_mid: :map
+#                 |           |   |   |   +- nd_recv:
+#                 |           |   |   |   |   @ NODE_FCALL (line: 35)
+#                 |           |   |   |   |   +- nd_mid: :expand
+#                 |           |   |   |   |   +- nd_args:
+#                 |           |   |   |   |       @ NODE_ARRAY (line: 35)
+#                 |           |   |   |   |       +- nd_alen: 1
+#                 |           |   |   |   |       +- nd_head:
+#                 |           |   |   |   |       |   @ NODE_LVAR (line: 35)
+#                 |           |   |   |   |       |   +- nd_vid: :pattern
+#                 |           |   |   |   |       +- nd_next:
+#                 |           |   |   |   |           (null node)
+#                 |           |   |   |   +- nd_args:
+#                 |           |   |   |       @ NODE_BLOCK_PASS (line: 35)
+#                 |           |   |   |       +- nd_head:
+#                 |           |   |   |       |   (null node)
+#                 |           |   |   |       +- nd_body:
+#                 |           |   |   |           @ NODE_LIT (line: 35)
+#                 |           |   |   |           +- nd_lit: :token
+#                 |           |   |   +- nd_args:
+#                 |           |   |       (null node)
+#                 |           |   +- nd_body:
+#                 |           |       @ NODE_SCOPE (line: 39)
+#                 |           |       +- nd_tbl: :token
+#                 |           |       +- nd_args:
+#                 |           |       |   @ NODE_ARGS (line: 35)
+#                 |           |       |   +- nd_ainfo->pre_args_num: 1
+#                 |           |       |   +- nd_ainfo->pre_init:
+#                 |           |       |   |   (null node)
+#                 |           |       |   +- nd_ainfo->post_args_num: 0
+#                 |           |       |   +- nd_ainfo->post_init:
+#                 |           |       |   |   (null node)
+#                 |           |       |   +- nd_ainfo->first_post_arg: (null)
+#                 |           |       |   +- nd_ainfo->rest_arg: (null)
+#                 |           |       |   +- nd_ainfo->block_arg: (null)
+#                 |           |       |   +- nd_ainfo->opt_args:
+#                 |           |       |   |   (null node)
+#                 |           |       |   +- nd_ainfo->kw_args:
+#                 |           |       |       (null node)
+#                 |           |       |   +- nd_ainfo->kw_rest_arg:
+#                 |           |       |       (null node)
+#                 |           |       +- nd_body:
+#                 |           |           @ NODE_IF (line: 36)
+#                 |           |           +- nd_cond:
+#                 |           |           |   @ NODE_CALL (line: 36)
+#                 |           |           |   +- nd_mid: :include?
+#                 |           |           |   +- nd_recv:
+#                 |           |           |   |   @ NODE_CALL (line: 36)
+#                 |           |           |   |   +- nd_mid: :keys
+#                 |           |           |   |   +- nd_recv:
+#                 |           |           |   |   |   @ NODE_COLON2 (line: 36)
+#                 |           |           |   |   |   +- nd_mid: :SCANNER_EVENT_TABLE
+#                 |           |           |   |   |   +- nd_head:
+#                 |           |           |   |   |       @ NODE_CONST (line: 36)
+#                 |           |           |   |   |       +- nd_vid: :Ripper
+#                 |           |           |   |   +- nd_args:
+#                 |           |           |   |       (null node)
+#                 |           |           |   +- nd_args:
+#                 |           |           |       @ NODE_ARRAY (line: 36)
+#                 |           |           |       +- nd_alen: 1
+#                 |           |           |       +- nd_head:
+#                 |           |           |       |   @ NODE_DVAR (line: 36)
+#                 |           |           |       |   +- nd_vid: :token
+#                 |           |           |       +- nd_next:
+#                 |           |           |           (null node)
+#                 |           |           +- nd_body:
+#                 |           |           |   (null node)
+#                 |           |           +- nd_else:
+#                 |           |               @ NODE_FCALL (line: 37)
+#                 |           |               +- nd_mid: :raise
+#                 |           |               +- nd_args:
+#                 |           |                   @ NODE_ARRAY (line: 37)
+#                 |           |                   +- nd_alen: 2
+#                 |           |                   +- nd_head:
+#                 |           |                   |   @ NODE_CONST (line: 37)
+#                 |           |                   |   +- nd_vid: :ArgumentError
+#                 |           |                   +- nd_next:
+#                 |           |                       @ NODE_ARRAY (line: 37)
+#                 |           |                       +- nd_alen: 140569869445400
+#                 |           |                       +- nd_head:
+#                 |           |                       |   @ NODE_DSTR (line: 37)
+#                 |           |                       |   +- nd_lit: "unsupported token ["
+#                 |           |                       |   +- nd_next->nd_head:
+#                 |           |                       |   |   @ NODE_EVSTR (line: 37)
+#                 |           |                       |   |   +- nd_body:
+#                 |           |                       |   |       @ NODE_DVAR (line: 37)
+#                 |           |                       |   |       +- nd_vid: :token
+#                 |           |                       |   +- nd_next->nd_next:
+#                 |           |                       |       @ NODE_ARRAY (line: 37)
+#                 |           |                       |       +- nd_alen: 1
+#                 |           |                       |       +- nd_head:
+#                 |           |                       |       |   @ NODE_STR (line: 37)
+#                 |           |                       |       |   +- nd_lit: "]!"
+#                 |           |                       |       +- nd_next:
+#                 |           |                       |           (null node)
+#                 |           |                       +- nd_next:
+#                 |           |                           (null node)
+#                 |           +- nd_next:
+#                 |               @ NODE_BLOCK (line: 40)
+#                 |               +- nd_head:
+#                 |               |   @ NODE_LVAR (line: 40)
+#                 |               |   +- nd_vid: :pattern
+#                 |               +- nd_next:
+#                 |                   (null node)
+#                 +- nd_next:
+#                     @ NODE_BLOCK (line: 51)
+#                     +- nd_head:
+#                     |   @ NODE_DEFN (line: 45)
+#                     |   +- nd_mid: :expand
+#                     |   +- nd_defn:
+#                     |       @ NODE_SCOPE (line: 51)
+#                     |       +- nd_tbl: :pattern,:pairs
+#                     |       +- nd_args:
+#                     |       |   @ NODE_ARGS (line: 45)
+#                     |       |   +- nd_ainfo->pre_args_num: 1
+#                     |       |   +- nd_ainfo->pre_init:
+#                     |       |   |   (null node)
+#                     |       |   +- nd_ainfo->post_args_num: 0
+#                     |       |   +- nd_ainfo->post_init:
+#                     |       |   |   (null node)
+#                     |       |   +- nd_ainfo->first_post_arg: (null)
+#                     |       |   +- nd_ainfo->rest_arg: (null)
+#                     |       |   +- nd_ainfo->block_arg: (null)
+#                     |       |   +- nd_ainfo->opt_args:
+#                     |       |   |   (null node)
+#                     |       |   +- nd_ainfo->kw_args:
+#                     |       |       (null node)
+#                     |       |   +- nd_ainfo->kw_rest_arg:
+#                     |       |       (null node)
+#                     |       +- nd_body:
+#                     |           @ NODE_BLOCK (line: 46)
+#                     |           +- nd_head:
+#                     |           |   @ NODE_IF (line: 46)
+#                     |           |   +- nd_cond:
+#                     |           |   |   @ NODE_CALL (line: 46)
+#                     |           |   |   +- nd_mid: :[]
+#                     |           |   |   +- nd_recv:
+#                     |           |   |   |   @ NODE_CALL (line: 46)
+#                     |           |   |   |   +- nd_mid: :[]
+#                     |           |   |   |   +- nd_recv:
+#                     |           |   |   |   |   @ NODE_LVAR (line: 46)
+#                     |           |   |   |   |   +- nd_vid: :pattern
+#                     |           |   |   |   +- nd_args:
+#                     |           |   |   |       @ NODE_ARRAY (line: 46)
+#                     |           |   |   |       +- nd_alen: 1
+#                     |           |   |   |       +- nd_head:
+#                     |           |   |   |       |   @ NODE_LIT (line: 46)
+#                     |           |   |   |       |   +- nd_lit: -1
+#                     |           |   |   |       +- nd_next:
+#                     |           |   |   |           (null node)
+#                     |           |   |   +- nd_args:
+#                     |           |   |       @ NODE_ARRAY (line: 46)
+#                     |           |   |       +- nd_alen: 1
+#                     |           |   |       +- nd_head:
+#                     |           |   |       |   @ NODE_LIT (line: 46)
+#                     |           |   |       |   +- nd_lit: /\|/
+#                     |           |   |       +- nd_next:
+#                     |           |   |           (null node)
+#                     |           |   +- nd_body:
+#                     |           |   |   (null node)
+#                     |           |   +- nd_else:
+#                     |           |       @ NODE_CALL (line: 46)
+#                     |           |       +- nd_mid: :<<
+#                     |           |       +- nd_recv:
+#                     |           |       |   @ NODE_LVAR (line: 46)
+#                     |           |       |   +- nd_vid: :pattern
+#                     |           |       +- nd_args:
+#                     |           |           @ NODE_ARRAY (line: 46)
+#                     |           |           +- nd_alen: 1
+#                     |           |           +- nd_head:
+#                     |           |           |   @ NODE_STR (line: 46)
+#                     |           |           |   +- nd_lit: "|"
+#                     |           |           +- nd_next:
+#                     |           |               (null node)
+#                     |           +- nd_next:
+#                     |               @ NODE_BLOCK (line: 48)
+#                     |               +- nd_head:
+#                     |               |   @ NODE_LASGN (line: 47)
+#                     |               |   +- nd_vid: :pairs
+#                     |               |   +- nd_value:
+#                     |               |       @ NODE_ITER (line: 48)
+#                     |               |       +- nd_iter:
+#                     |               |       |   @ NODE_CALL (line: 48)
+#                     |               |       |   +- nd_mid: :map
+#                     |               |       |   +- nd_recv:
+#                     |               |       |   |   @ NODE_CALL (line: 47)
+#                     |               |       |   |   +- nd_mid: :scan
+#                     |               |       |   |   +- nd_recv:
+#                     |               |       |   |   |   @ NODE_LVAR (line: 47)
+#                     |               |       |   |   |   +- nd_vid: :pattern
+#                     |               |       |   |   +- nd_args:
+#                     |               |       |   |       @ NODE_ARRAY (line: 47)
+#                     |               |       |   |       +- nd_alen: 1
+#                     |               |       |   |       +- nd_head:
+#                     |               |       |   |       |   @ NODE_LIT (line: 47)
+#                     |               |       |   |       |   +- nd_lit: /([a-z_]*)(\(.\))?\|/
+#                     |               |       |   |       +- nd_next:
+#                     |               |       |   |           (null node)
+#                     |               |       |   +- nd_args:
+#                     |               |       |       (null node)
+#                     |               |       +- nd_body:
+#                     |               |           @ NODE_SCOPE (line: 48)
+#                     |               |           +- nd_tbl: :el
+#                     |               |           +- nd_args:
+#                     |               |           |   @ NODE_ARGS (line: 48)
+#                     |               |           |   +- nd_ainfo->pre_args_num: 1
+#                     |               |           |   +- nd_ainfo->pre_init:
+#                     |               |           |   |   (null node)
+#                     |               |           |   +- nd_ainfo->post_args_num: 0
+#                     |               |           |   +- nd_ainfo->post_init:
+#                     |               |           |   |   (null node)
+#                     |               |           |   +- nd_ainfo->first_post_arg: (null)
+#                     |               |           |   +- nd_ainfo->rest_arg: (null)
+#                     |               |           |   +- nd_ainfo->block_arg: (null)
+#                     |               |           |   +- nd_ainfo->opt_args:
+#                     |               |           |   |   (null node)
+#                     |               |           |   +- nd_ainfo->kw_args:
+#                     |               |           |       (null node)
+#                     |               |           |   +- nd_ainfo->kw_rest_arg:
+#                     |               |           |       (null node)
+#                     |               |           +- nd_body:
+#                     |               |               @ NODE_ARRAY (line: 48)
+#                     |               |               +- nd_alen: 2
+#                     |               |               +- nd_head:
+#                     |               |               |   @ NODE_CALL (line: 48)
+#                     |               |               |   +- nd_mid: :to_sym
+#                     |               |               |   +- nd_recv:
+#                     |               |               |   |   @ NODE_CALL (line: 48)
+#                     |               |               |   |   +- nd_mid: :first
+#                     |               |               |   |   +- nd_recv:
+#                     |               |               |   |   |   @ NODE_DVAR (line: 48)
+#                     |               |               |   |   |   +- nd_vid: :el
+#                     |               |               |   |   +- nd_args:
+#                     |               |               |   |       (null node)
+#                     |               |               |   +- nd_args:
+#                     |               |               |       (null node)
+#                     |               |               +- nd_next:
+#                     |               |                   @ NODE_ARRAY (line: 48)
+#                     |               |                   +- nd_alen: 140569869443040
+#                     |               |                   +- nd_head:
+#                     |               |                   |   @ NODE_CALL (line: 48)
+#                     |               |                   |   +- nd_mid: :last
+#                     |               |                   |   +- nd_recv:
+#                     |               |                   |   |   @ NODE_DVAR (line: 48)
+#                     |               |                   |   |   +- nd_vid: :el
+#                     |               |                   |   +- nd_args:
+#                     |               |                   |       (null node)
+#                     |               |                   +- nd_next:
+#                     |               |                       (null node)
+#                     |               +- nd_next:
+#                     |                   @ NODE_BLOCK (line: 50)
+#                     |                   +- nd_head:
+#                     |                   |   @ NODE_ITER (line: 50)
+#                     |                   |   +- nd_iter:
+#                     |                   |   |   @ NODE_CALL (line: 50)
+#                     |                   |   |   +- nd_mid: :map
+#                     |                   |   |   +- nd_recv:
+#                     |                   |   |   |   @ NODE_LVAR (line: 50)
+#                     |                   |   |   |   +- nd_vid: :pairs
+#                     |                   |   |   +- nd_args:
+#                     |                   |   |       (null node)
+#                     |                   |   +- nd_body:
+#                     |                   |       @ NODE_SCOPE (line: 50)
+#                     |                   |       +- nd_tbl: :pair
+#                     |                   |       +- nd_args:
+#                     |                   |       |   @ NODE_ARGS (line: 50)
+#                     |                   |       |   +- nd_ainfo->pre_args_num: 1
+#                     |                   |       |   +- nd_ainfo->pre_init:
+#                     |                   |       |   |   (null node)
+#                     |                   |       |   +- nd_ainfo->post_args_num: 0
+#                     |                   |       |   +- nd_ainfo->post_init:
+#                     |                   |       |   |   (null node)
+#                     |                   |       |   +- nd_ainfo->first_post_arg: (null)
+#                     |                   |       |   +- nd_ainfo->rest_arg: (null)
+#                     |                   |       |   +- nd_ainfo->block_arg: (null)
+#                     |                   |       |   +- nd_ainfo->opt_args:
+#                     |                   |       |   |   (null node)
+#                     |                   |       |   +- nd_ainfo->kw_args:
+#                     |                   |       |       (null node)
+#                     |                   |       |   +- nd_ainfo->kw_rest_arg:
+#                     |                   |       |       (null node)
+#                     |                   |       +- nd_body:
+#                     |                   |           @ NODE_CALL (line: 50)
+#                     |                   |           +- nd_mid: :new
+#                     |                   |           +- nd_recv:
+#                     |                   |           |   @ NODE_CONST (line: 50)
+#                     |                   |           |   +- nd_vid: :OpenStruct
+#                     |                   |           +- nd_args:
+#                     |                   |               @ NODE_ARRAY (line: 50)
+#                     |                   |               +- nd_alen: 1
+#                     |                   |               +- nd_head:
+#                     |                   |               |   @ NODE_HASH (line: 50)
+#                     |                   |               |   +- nd_head:
+#                     |                   |               |       @ NODE_ARRAY (line: 50)
+#                     |                   |               |       +- nd_alen: 4
+#                     |                   |               |       +- nd_head:
+#                     |                   |               |       |   @ NODE_LIT (line: 50)
+#                     |                   |               |       |   +- nd_lit: :token
+#                     |                   |               |       +- nd_next:
+#                     |                   |               |           @ NODE_ARRAY (line: 50)
+#                     |                   |               |           +- nd_alen: 140569869442080
+#                     |                   |               |           +- nd_head:
+#                     |                   |               |           |   @ NODE_CALL (line: 50)
+#                     |                   |               |           |   +- nd_mid: :first
+#                     |                   |               |           |   +- nd_recv:
+#                     |                   |               |           |   |   @ NODE_DVAR (line: 50)
+#                     |                   |               |           |   |   +- nd_vid: :pair
+#                     |                   |               |           |   +- nd_args:
+#                     |                   |               |           |       (null node)
+#                     |                   |               |           +- nd_next:
+#                     |                   |               |               @ NODE_ARRAY (line: 50)
+#                     |                   |               |               +- nd_alen: 2
+#                     |                   |               |               +- nd_head:
+#                     |                   |               |               |   @ NODE_LIT (line: 50)
+#                     |                   |               |               |   +- nd_lit: :detail
+#                     |                   |               |               +- nd_next:
+#                     |                   |               |                   @ NODE_ARRAY (line: 50)
+#                     |                   |               |                   +- nd_alen: 140569869442080
+#                     |                   |               |                   +- nd_head:
+#                     |                   |               |                   |   @ NODE_CALL (line: 50)
+#                     |                   |               |                   |   +- nd_mid: :last
+#                     |                   |               |                   |   +- nd_recv:
+#                     |                   |               |                   |   |   @ NODE_DVAR (line: 50)
+#                     |                   |               |                   |   |   +- nd_vid: :pair
+#                     |                   |               |                   |   +- nd_args:
+#                     |                   |               |                   |       (null node)
+#                     |                   |               |                   +- nd_next:
+#                     |                   |               |                       (null node)
+#                     |                   |               +- nd_next:
+#                     |                   |                   (null node)
+#                     |                   +- nd_next:
+#                     |                       (null node)
+#                     +- nd_next:
+#                         @ NODE_BLOCK (line: 57)
+#                         +- nd_head:
+#                         |   @ NODE_DEFN (line: 55)
+#                         |   +- nd_mid: :tokenize
+#                         |   +- nd_defn:
+#                         |       @ NODE_SCOPE (line: 57)
+#                         |       +- nd_tbl: :snippet
+#                         |       +- nd_args:
+#                         |       |   @ NODE_ARGS (line: 55)
+#                         |       |   +- nd_ainfo->pre_args_num: 1
+#                         |       |   +- nd_ainfo->pre_init:
+#                         |       |   |   (null node)
+#                         |       |   +- nd_ainfo->post_args_num: 0
+#                         |       |   +- nd_ainfo->post_init:
+#                         |       |   |   (null node)
+#                         |       |   +- nd_ainfo->first_post_arg: (null)
+#                         |       |   +- nd_ainfo->rest_arg: (null)
+#                         |       |   +- nd_ainfo->block_arg: (null)
+#                         |       |   +- nd_ainfo->opt_args:
+#                         |       |   |   (null node)
+#                         |       |   +- nd_ainfo->kw_args:
+#                         |       |       (null node)
+#                         |       |   +- nd_ainfo->kw_rest_arg:
+#                         |       |       (null node)
+#                         |       +- nd_body:
+#                         |           @ NODE_ITER (line: 56)
+#                         |           +- nd_iter:
+#                         |           |   @ NODE_CALL (line: 56)
+#                         |           |   +- nd_mid: :map
+#                         |           |   +- nd_recv:
+#                         |           |   |   @ NODE_CALL (line: 56)
+#                         |           |   |   +- nd_mid: :lex
+#                         |           |   |   +- nd_recv:
+#                         |           |   |   |   @ NODE_CONST (line: 56)
+#                         |           |   |   |   +- nd_vid: :Ripper
+#                         |           |   |   +- nd_args:
+#                         |           |   |       @ NODE_ARRAY (line: 56)
+#                         |           |   |       +- nd_alen: 1
+#                         |           |   |       +- nd_head:
+#                         |           |   |       |   @ NODE_LVAR (line: 56)
+#                         |           |   |       |   +- nd_vid: :snippet
+#                         |           |   |       +- nd_next:
+#                         |           |   |           (null node)
+#                         |           |   +- nd_args:
+#                         |           |       (null node)
+#                         |           +- nd_body:
+#                         |               @ NODE_SCOPE (line: 56)
+#                         |               +- nd_tbl: :a,:b,:_
+#                         |               +- nd_args:
+#                         |               |   @ NODE_ARGS (line: 56)
+#                         |               |   +- nd_ainfo->pre_args_num: 3
+#                         |               |   +- nd_ainfo->pre_init:
+#                         |               |   |   (null node)
+#                         |               |   +- nd_ainfo->post_args_num: 0
+#                         |               |   +- nd_ainfo->post_init:
+#                         |               |   |   (null node)
+#                         |               |   +- nd_ainfo->first_post_arg: (null)
+#                         |               |   +- nd_ainfo->rest_arg: (null)
+#                         |               |   +- nd_ainfo->block_arg: (null)
+#                         |               |   +- nd_ainfo->opt_args:
+#                         |               |   |   (null node)
+#                         |               |   +- nd_ainfo->kw_args:
+#                         |               |       (null node)
+#                         |               |   +- nd_ainfo->kw_rest_arg:
+#                         |               |       (null node)
+#                         |               +- nd_body:
+#                         |                   @ NODE_ARRAY (line: 56)
+#                         |                   +- nd_alen: 2
+#                         |                   +- nd_head:
+#                         |                   |   @ NODE_CALL (line: 56)
+#                         |                   |   +- nd_mid: :first
+#                         |                   |   +- nd_recv:
+#                         |                   |   |   @ NODE_DVAR (line: 56)
+#                         |                   |   |   +- nd_vid: :a
+#                         |                   |   +- nd_args:
+#                         |                   |       (null node)
+#                         |                   +- nd_next:
+#                         |                       @ NODE_ARRAY (line: 56)
+#                         |                       +- nd_alen: 140569869440320
+#                         |                       +- nd_head:
+#                         |                       |   @ NODE_CALL (line: 56)
+#                         |                       |   +- nd_mid: :to_sym
+#                         |                       |   +- nd_recv:
+#                         |                       |   |   @ NODE_CALL (line: 56)
+#                         |                       |   |   +- nd_mid: :gsub
+#                         |                       |   |   +- nd_recv:
+#                         |                       |   |   |   @ NODE_CALL (line: 56)
+#                         |                       |   |   |   +- nd_mid: :to_s
+#                         |                       |   |   |   +- nd_recv:
+#                         |                       |   |   |   |   @ NODE_DVAR (line: 56)
+#                         |                       |   |   |   |   +- nd_vid: :b
+#                         |                       |   |   |   +- nd_args:
+#                         |                       |   |   |       (null node)
+#                         |                       |   |   +- nd_args:
+#                         |                       |   |       @ NODE_ARRAY (line: 56)
+#                         |                       |   |       +- nd_alen: 2
+#                         |                       |   |       +- nd_head:
+#                         |                       |   |       |   @ NODE_LIT (line: 56)
+#                         |                       |   |       |   +- nd_lit: /on_/
+#                         |                       |   |       +- nd_next:
+#                         |                       |   |           @ NODE_ARRAY (line: 56)
+#                         |                       |   |           +- nd_alen: 140569869440440
+#                         |                       |   |           +- nd_head:
+#                         |                       |   |           |   @ NODE_STR (line: 56)
+#                         |                       |   |           |   +- nd_lit: ""
+#                         |                       |   |           +- nd_next:
+#                         |                       |   |               (null node)
+#                         |                       |   +- nd_args:
+#                         |                       |       (null node)
+#                         |                       +- nd_next:
+#                         |                           (null node)
+#                         +- nd_next:
+#                             @ NODE_BLOCK (line: 63)
+#                             +- nd_head:
+#                             |   @ NODE_DEFN (line: 61)
+#                             |   +- nd_mid: :patternize
+#                             |   +- nd_defn:
+#                             |       @ NODE_SCOPE (line: 63)
+#                             |       +- nd_tbl: :snippet
+#                             |       +- nd_args:
+#                             |       |   @ NODE_ARGS (line: 61)
+#                             |       |   +- nd_ainfo->pre_args_num: 1
+#                             |       |   +- nd_ainfo->pre_init:
+#                             |       |   |   (null node)
+#                             |       |   +- nd_ainfo->post_args_num: 0
+#                             |       |   +- nd_ainfo->post_init:
+#                             |       |   |   (null node)
+#                             |       |   +- nd_ainfo->first_post_arg: (null)
+#                             |       |   +- nd_ainfo->rest_arg: (null)
+#                             |       |   +- nd_ainfo->block_arg: (null)
+#                             |       |   +- nd_ainfo->opt_args:
+#                             |       |   |   (null node)
+#                             |       |   +- nd_ainfo->kw_args:
+#                             |       |       (null node)
+#                             |       |   +- nd_ainfo->kw_rest_arg:
+#                             |       |       (null node)
+#                             |       +- nd_body:
+#                             |           @ NODE_CALL (line: 62)
+#                             |           +- nd_mid: :+
+#                             |           +- nd_recv:
+#                             |           |   @ NODE_CALL (line: 62)
+#                             |           |   +- nd_mid: :*
+#                             |           |   +- nd_recv:
+#                             |           |   |   @ NODE_CALL (line: 62)
+#                             |           |   |   +- nd_mid: :map
+#                             |           |   |   +- nd_recv:
+#                             |           |   |   |   @ NODE_FCALL (line: 62)
+#                             |           |   |   |   +- nd_mid: :tokenize
+#                             |           |   |   |   +- nd_args:
+#                             |           |   |   |       @ NODE_ARRAY (line: 62)
+#                             |           |   |   |       +- nd_alen: 1
+#                             |           |   |   |       +- nd_head:
+#                             |           |   |   |       |   @ NODE_LVAR (line: 62)
+#                             |           |   |   |       |   +- nd_vid: :snippet
+#                             |           |   |   |       +- nd_next:
+#                             |           |   |   |           (null node)
+#                             |           |   |   +- nd_args:
+#                             |           |   |       @ NODE_BLOCK_PASS (line: 62)
+#                             |           |   |       +- nd_head:
+#                             |           |   |       |   (null node)
+#                             |           |   |       +- nd_body:
+#                             |           |   |           @ NODE_LIT (line: 62)
+#                             |           |   |           +- nd_lit: :last
+#                             |           |   +- nd_args:
+#                             |           |       @ NODE_ARRAY (line: 62)
+#                             |           |       +- nd_alen: 1
+#                             |           |       +- nd_head:
+#                             |           |       |   @ NODE_STR (line: 62)
+#                             |           |       |   +- nd_lit: "|"
+#                             |           |       +- nd_next:
+#                             |           |           (null node)
+#                             |           +- nd_args:
+#                             |               @ NODE_ARRAY (line: 62)
+#                             |               +- nd_alen: 1
+#                             |               +- nd_head:
+#                             |               |   @ NODE_STR (line: 62)
+#                             |               |   +- nd_lit: "|"
+#                             |               +- nd_next:
+#                             |                   (null node)
+#                             +- nd_next:
+#                                 @ NODE_BLOCK (line: 104)
+#                                 +- nd_head:
+#                                 |   @ NODE_DEFN (line: 71)
+#                                 |   +- nd_mid: :find
+#                                 |   +- nd_defn:
+#                                 |       @ NODE_SCOPE (line: 104)
+#                                 |       +- nd_tbl: :pattern,:snippet,:format,:line_pairs,:search_pattern,:tokenized_snippet,:idx,:first,:last
+#                                 |       +- nd_args:
+#                                 |       |   @ NODE_ARGS (line: 71)
+#                                 |       |   +- nd_ainfo->pre_args_num: 2
+#                                 |       |   +- nd_ainfo->pre_init:
+#                                 |       |   |   (null node)
+#                                 |       |   +- nd_ainfo->post_args_num: 0
+#                                 |       |   +- nd_ainfo->post_init:
+#                                 |       |   |   (null node)
+#                                 |       |   +- nd_ainfo->first_post_arg: (null)
+#                                 |       |   +- nd_ainfo->rest_arg: (null)
+#                                 |       |   +- nd_ainfo->block_arg: (null)
+#                                 |       |   +- nd_ainfo->opt_args:
+#                                 |       |   |   @ NODE_OPT_ARG (line: 71)
+#                                 |       |   |   +- nd_body:
+#                                 |       |   |   |   @ NODE_LASGN (line: 71)
+#                                 |       |   |   |   +- nd_vid: :format
+#                                 |       |   |   |   +- nd_value:
+#                                 |       |   |   |       @ NODE_LIT (line: 71)
+#                                 |       |   |   |       +- nd_lit: :counted
+#                                 |       |   |   +- nd_next:
+#                                 |       |   |       (null node)
+#                                 |       |   +- nd_ainfo->kw_args:
+#                                 |       |       (null node)
+#                                 |       |   +- nd_ainfo->kw_rest_arg:
+#                                 |       |       (null node)
+#                                 |       +- nd_body:
+#                                 |           @ NODE_BLOCK (line: 72)
+#                                 |           +- nd_head:
+#                                 |           |   @ NODE_LASGN (line: 72)
+#                                 |           |   +- nd_vid: :line_pairs
+#                                 |           |   +- nd_value:
+#                                 |           |       @ NODE_ZARRAY (line: 72)
+#                                 |           +- nd_next:
+#                                 |               @ NODE_BLOCK (line: 73)
+#                                 |               +- nd_head:
+#                                 |               |   @ NODE_LASGN (line: 73)
+#                                 |               |   +- nd_vid: :search_pattern
+#                                 |               |   +- nd_value:
+#                                 |               |       @ NODE_FCALL (line: 73)
+#                                 |               |       +- nd_mid: :expand
+#                                 |               |       +- nd_args:
+#                                 |               |           @ NODE_ARRAY (line: 73)
+#                                 |               |           +- nd_alen: 1
+#                                 |               |           +- nd_head:
+#                                 |               |           |   @ NODE_FCALL (line: 73)
+#                                 |               |           |   +- nd_mid: :valid
+#                                 |               |           |   +- nd_args:
+#                                 |               |           |       @ NODE_ARRAY (line: 73)
+#                                 |               |           |       +- nd_alen: 1
+#                                 |               |           |       +- nd_head:
+#                                 |               |           |       |   @ NODE_LVAR (line: 73)
+#                                 |               |           |       |   +- nd_vid: :pattern
+#                                 |               |           |       +- nd_next:
+#                                 |               |           |           (null node)
+#                                 |               |           +- nd_next:
+#                                 |               |               (null node)
+#                                 |               +- nd_next:
+#                                 |                   @ NODE_BLOCK (line: 74)
+#                                 |                   +- nd_head:
+#                                 |                   |   @ NODE_LASGN (line: 74)
+#                                 |                   |   +- nd_vid: :tokenized_snippet
+#                                 |                   |   +- nd_value:
+#                                 |                   |       @ NODE_FCALL (line: 74)
+#                                 |                   |       +- nd_mid: :tokenize
+#                                 |                   |       +- nd_args:
+#                                 |                   |           @ NODE_ARRAY (line: 74)
+#                                 |                   |           +- nd_alen: 1
+#                                 |                   |           +- nd_head:
+#                                 |                   |           |   @ NODE_RESCUE (line: 74)
+#                                 |                   |           |   +- nd_head:
+#                                 |                   |           |   |   @ NODE_CALL (line: 74)
+#                                 |                   |           |   |   +- nd_mid: :join
+#                                 |                   |           |   |   +- nd_recv:
+#                                 |                   |           |   |   |   @ NODE_LVAR (line: 74)
+#                                 |                   |           |   |   |   +- nd_vid: :snippet
+#                                 |                   |           |   |   +- nd_args:
+#                                 |                   |           |   |       (null node)
+#                                 |                   |           |   +- nd_resq:
+#                                 |                   |           |   |   @ NODE_RESBODY (line: 74)
+#                                 |                   |           |   |   +- nd_args:
+#                                 |                   |           |   |   |   (null node)
+#                                 |                   |           |   |   +- nd_body:
+#                                 |                   |           |   |   |   @ NODE_LVAR (line: 74)
+#                                 |                   |           |   |   |   +- nd_vid: :snippet
+#                                 |                   |           |   |   +- nd_head:
+#                                 |                   |           |   |       (null node)
+#                                 |                   |           |   +- nd_else:
+#                                 |                   |           |       (null node)
+#                                 |                   |           +- nd_next:
+#                                 |                   |               (null node)
+#                                 |                   +- nd_next:
+#                                 |                       @ NODE_BLOCK (line: 75)
+#                                 |                       +- nd_head:
+#                                 |                       |   @ NODE_MASGN (line: 75)
+#                                 |                       |   +- nd_value:
+#                                 |                       |   |   @ NODE_ARRAY (line: 75)
+#                                 |                       |   |   +- nd_alen: 3
+#                                 |                       |   |   +- nd_head:
+#                                 |                       |   |   |   @ NODE_LIT (line: 75)
+#                                 |                       |   |   |   +- nd_lit: 0
+#                                 |                       |   |   +- nd_next:
+#                                 |                       |   |       @ NODE_ARRAY (line: 75)
+#                                 |                       |   |       +- nd_alen: 140569869436840
+#                                 |                       |   |       +- nd_head:
+#                                 |                       |   |       |   @ NODE_LIT (line: 75)
+#                                 |                       |   |       |   +- nd_lit: 0
+#                                 |                       |   |       +- nd_next:
+#                                 |                       |   |           @ NODE_ARRAY (line: 75)
+#                                 |                       |   |           +- nd_alen: 1
+#                                 |                       |   |           +- nd_head:
+#                                 |                       |   |           |   @ NODE_LIT (line: 75)
+#                                 |                       |   |           |   +- nd_lit: 0
+#                                 |                       |   |           +- nd_next:
+#                                 |                       |   |               (null node)
+#                                 |                       |   +- nd_head:
+#                                 |                       |   |   @ NODE_ARRAY (line: 75)
+#                                 |                       |   |   +- nd_alen: 3
+#                                 |                       |   |   +- nd_head:
+#                                 |                       |   |   |   @ NODE_LASGN (line: 75)
+#                                 |                       |   |   |   +- nd_vid: :idx
+#                                 |                       |   |   |   +- nd_value:
+#                                 |                       |   |   |       (null node)
+#                                 |                       |   |   +- nd_next:
+#                                 |                       |   |       @ NODE_ARRAY (line: 75)
+#                                 |                       |   |       +- nd_alen: 140569869437160
+#                                 |                       |   |       +- nd_head:
+#                                 |                       |   |       |   @ NODE_LASGN (line: 75)
+#                                 |                       |   |       |   +- nd_vid: :first
+#                                 |                       |   |       |   +- nd_value:
+#                                 |                       |   |       |       (null node)
+#                                 |                       |   |       +- nd_next:
+#                                 |                       |   |           @ NODE_ARRAY (line: 75)
+#                                 |                       |   |           +- nd_alen: 1
+#                                 |                       |   |           +- nd_head:
+#                                 |                       |   |           |   @ NODE_LASGN (line: 75)
+#                                 |                       |   |           |   +- nd_vid: :last
+#                                 |                       |   |           |   +- nd_value:
+#                                 |                       |   |           |       (null node)
+#                                 |                       |   |           +- nd_next:
+#                                 |                       |   |               (null node)
+#                                 |                       |   +- nd_args:
+#                                 |                       |       (null node)
+#                                 |                       +- nd_next:
+#                                 |                           @ NODE_BLOCK (line: 96)
+#                                 |                           +- nd_head:
+#                                 |                           |   @ NODE_ITER (line: 77)
+#                                 |                           |   +- nd_iter:
+#                                 |                           |   |   @ NODE_CALL (line: 77)
+#                                 |                           |   |   +- nd_mid: :each
+#                                 |                           |   |   +- nd_recv:
+#                                 |                           |   |   |   @ NODE_LVAR (line: 77)
+#                                 |                           |   |   |   +- nd_vid: :tokenized_snippet
+#                                 |                           |   |   +- nd_args:
+#                                 |                           |   |       (null node)
+#                                 |                           |   +- nd_body:
+#                                 |                           |       @ NODE_SCOPE (line: 96)
+#                                 |                           |       +- nd_tbl: :line,:token,:space,:matched
+#                                 |                           |       +- nd_args:
+#                                 |                           |       |   @ NODE_ARGS (line: 77)
+#                                 |                           |       |   +- nd_ainfo->pre_args_num: 2
+#                                 |                           |       |   +- nd_ainfo->pre_init:
+#                                 |                           |       |   |   (null node)
+#                                 |                           |       |   +- nd_ainfo->post_args_num: 0
+#                                 |                           |       |   +- nd_ainfo->post_init:
+#                                 |                           |       |   |   (null node)
+#                                 |                           |       |   +- nd_ainfo->first_post_arg: (null)
+#                                 |                           |       |   +- nd_ainfo->rest_arg: (null)
+#                                 |                           |       |   +- nd_ainfo->block_arg: (null)
+#                                 |                           |       |   +- nd_ainfo->opt_args:
+#                                 |                           |       |   |   (null node)
+#                                 |                           |       |   +- nd_ainfo->kw_args:
+#                                 |                           |       |       (null node)
+#                                 |                           |       |   +- nd_ainfo->kw_rest_arg:
+#                                 |                           |       |       (null node)
+#                                 |                           |       +- nd_body:
+#                                 |                           |           @ NODE_BLOCK (line: 79)
+#                                 |                           |           +- nd_head:
+#                                 |                           |           |   @ NODE_IF (line: 79)
+#                                 |                           |           |   +- nd_cond:
+#                                 |                           |           |   |   @ NODE_CALL (line: 79)
+#                                 |                           |           |   |   +- nd_mid: :==
+#                                 |                           |           |   |   +- nd_recv:
+#                                 |                           |           |   |   |   @ NODE_DVAR (line: 79)
+#                                 |                           |           |   |   |   +- nd_vid: :idx
+#                                 |                           |           |   |   +- nd_args:
+#                                 |                           |           |   |       @ NODE_ARRAY (line: 79)
+#                                 |                           |           |   |       +- nd_alen: 1
+#                                 |                           |           |   |       +- nd_head:
+#                                 |                           |           |   |       |   @ NODE_CALL (line: 79)
+#                                 |                           |           |   |       |   +- nd_mid: :length
+#                                 |                           |           |   |       |   +- nd_recv:
+#                                 |                           |           |   |       |   |   @ NODE_DVAR (line: 79)
+#                                 |                           |           |   |       |   |   +- nd_vid: :search_pattern
+#                                 |                           |           |   |       |   +- nd_args:
+#                                 |                           |           |   |       |       (null node)
+#                                 |                           |           |   |       +- nd_next:
+#                                 |                           |           |   |           (null node)
+#                                 |                           |           |   +- nd_body:
+#                                 |                           |           |   |   @ NODE_BLOCK (line: 80)
+#                                 |                           |           |   |   +- nd_head:
+#                                 |                           |           |   |   |   @ NODE_CALL (line: 80)
+#                                 |                           |           |   |   |   +- nd_mid: :<<
+#                                 |                           |           |   |   |   +- nd_recv:
+#                                 |                           |           |   |   |   |   @ NODE_DVAR (line: 80)
+#                                 |                           |           |   |   |   |   +- nd_vid: :line_pairs
+#                                 |                           |           |   |   |   +- nd_args:
+#                                 |                           |           |   |   |       @ NODE_ARRAY (line: 80)
+#                                 |                           |           |   |   |       +- nd_alen: 1
+#                                 |                           |           |   |   |       +- nd_head:
+#                                 |                           |           |   |   |       |   @ NODE_ARRAY (line: 80)
+#                                 |                           |           |   |   |       |   +- nd_alen: 2
+#                                 |                           |           |   |   |       |   +- nd_head:
+#                                 |                           |           |   |   |       |   |   @ NODE_DVAR (line: 80)
+#                                 |                           |           |   |   |       |   |   +- nd_vid: :first
+#                                 |                           |           |   |   |       |   +- nd_next:
+#                                 |                           |           |   |   |       |       @ NODE_ARRAY (line: 80)
+#                                 |                           |           |   |   |       |       +- nd_alen: 140569869436040
+#                                 |                           |           |   |   |       |       +- nd_head:
+#                                 |                           |           |   |   |       |       |   @ NODE_DVAR (line: 80)
+#                                 |                           |           |   |   |       |       |   +- nd_vid: :last
+#                                 |                           |           |   |   |       |       +- nd_next:
+#                                 |                           |           |   |   |       |           (null node)
+#                                 |                           |           |   |   |       +- nd_next:
+#                                 |                           |           |   |   |           (null node)
+#                                 |                           |           |   |   +- nd_next:
+#                                 |                           |           |   |       @ NODE_BLOCK (line: 81)
+#                                 |                           |           |   |       +- nd_head:
+#                                 |                           |           |   |       |   @ NODE_MASGN (line: 81)
+#                                 |                           |           |   |       |   +- nd_value:
+#                                 |                           |           |   |       |   |   @ NODE_ARRAY (line: 81)
+#                                 |                           |           |   |       |   |   +- nd_alen: 3
+#                                 |                           |           |   |       |   |   +- nd_head:
+#                                 |                           |           |   |       |   |   |   @ NODE_LIT (line: 81)
+#                                 |                           |           |   |       |   |   |   +- nd_lit: 0
+#                                 |                           |           |   |       |   |   +- nd_next:
+#                                 |                           |           |   |       |   |       @ NODE_ARRAY (line: 81)
+#                                 |                           |           |   |       |   |       +- nd_alen: 140569869435360
+#                                 |                           |           |   |       |   |       +- nd_head:
+#                                 |                           |           |   |       |   |       |   @ NODE_LIT (line: 81)
+#                                 |                           |           |   |       |   |       |   +- nd_lit: 0
+#                                 |                           |           |   |       |   |       +- nd_next:
+#                                 |                           |           |   |       |   |           @ NODE_ARRAY (line: 81)
+#                                 |                           |           |   |       |   |           +- nd_alen: 1
+#                                 |                           |           |   |       |   |           +- nd_head:
+#                                 |                           |           |   |       |   |           |   @ NODE_LIT (line: 81)
+#                                 |                           |           |   |       |   |           |   +- nd_lit: 0
+#                                 |                           |           |   |       |   |           +- nd_next:
+#                                 |                           |           |   |       |   |               (null node)
+#                                 |                           |           |   |       |   +- nd_head:
+#                                 |                           |           |   |       |   |   @ NODE_ARRAY (line: 81)
+#                                 |                           |           |   |       |   |   +- nd_alen: 3
+#                                 |                           |           |   |       |   |   +- nd_head:
+#                                 |                           |           |   |       |   |   |   @ NODE_DASGN (line: 81)
+#                                 |                           |           |   |       |   |   |   +- nd_vid: :idx
+#                                 |                           |           |   |       |   |   |   +- nd_value:
+#                                 |                           |           |   |       |   |   |       (null node)
+#                                 |                           |           |   |       |   |   +- nd_next:
+#                                 |                           |           |   |       |   |       @ NODE_ARRAY (line: 81)
+#                                 |                           |           |   |       |   |       +- nd_alen: 140569869435680
+#                                 |                           |           |   |       |   |       +- nd_head:
+#                                 |                           |           |   |       |   |       |   @ NODE_DASGN (line: 81)
+#                                 |                           |           |   |       |   |       |   +- nd_vid: :first
+#                                 |                           |           |   |       |   |       |   +- nd_value:
+#                                 |                           |           |   |       |   |       |       (null node)
+#                                 |                           |           |   |       |   |       +- nd_next:
+#                                 |                           |           |   |       |   |           @ NODE_ARRAY (line: 81)
+#                                 |                           |           |   |       |   |           +- nd_alen: 1
+#                                 |                           |           |   |       |   |           +- nd_head:
+#                                 |                           |           |   |       |   |           |   @ NODE_DASGN (line: 81)
+#                                 |                           |           |   |       |   |           |   +- nd_vid: :last
+#                                 |                           |           |   |       |   |           |   +- nd_value:
+#                                 |                           |           |   |       |   |           |       (null node)
+#                                 |                           |           |   |       |   |           +- nd_next:
+#                                 |                           |           |   |       |   |               (null node)
+#                                 |                           |           |   |       |   +- nd_args:
+#                                 |                           |           |   |       |       (null node)
+#                                 |                           |           |   |       +- nd_next:
+#                                 |                           |           |   |           @ NODE_BLOCK (line: 82)
+#                                 |                           |           |   |           +- nd_head:
+#                                 |                           |           |   |           |   @ NODE_NEXT (line: 82)
+#                                 |                           |           |   |           |   +- nd_stts:
+#                                 |                           |           |   |           |       (null node)
+#                                 |                           |           |   |           +- nd_next:
+#                                 |                           |           |   |               (null node)
+#                                 |                           |           |   +- nd_else:
+#                                 |                           |           |       (null node)
+#                                 |                           |           +- nd_next:
+#                                 |                           |               @ NODE_BLOCK (line: 85)
+#                                 |                           |               +- nd_head:
+#                                 |                           |               |   @ NODE_DASGN_CURR (line: 85)
+#                                 |                           |               |   +- nd_vid: :space
+#                                 |                           |               |   +- nd_value:
+#                                 |                           |               |       @ NODE_CALL (line: 85)
+#                                 |                           |               |       +- nd_mid: :==
+#                                 |                           |               |       +- nd_recv:
+#                                 |                           |               |       |   @ NODE_CALL (line: 85)
+#                                 |                           |               |       |   +- nd_mid: :[]
+#                                 |                           |               |       |   +- nd_recv:
+#                                 |                           |               |       |   |   @ NODE_DVAR (line: 85)
+#                                 |                           |               |       |   |   +- nd_vid: :search_pattern
+#                                 |                           |               |       |   +- nd_args:
+#                                 |                           |               |       |       @ NODE_ARRAY (line: 85)
+#                                 |                           |               |       |       +- nd_alen: 1
+#                                 |                           |               |       |       +- nd_head:
+#                                 |                           |               |       |       |   @ NODE_DVAR (line: 85)
+#                                 |                           |               |       |       |   +- nd_vid: :idx
+#                                 |                           |               |       |       +- nd_next:
+#                                 |                           |               |       |           (null node)
+#                                 |                           |               |       +- nd_args:
+#                                 |                           |               |           @ NODE_ARRAY (line: 85)
+#                                 |                           |               |           +- nd_alen: 1
+#                                 |                           |               |           +- nd_head:
+#                                 |                           |               |           |   @ NODE_STR (line: 85)
+#                                 |                           |               |           |   +- nd_lit: "sp"
+#                                 |                           |               |           +- nd_next:
+#                                 |                           |               |               (null node)
+#                                 |                           |               +- nd_next:
+#                                 |                           |                   @ NODE_BLOCK (line: 86)
+#                                 |                           |                   +- nd_head:
+#                                 |                           |                   |   @ NODE_DASGN_CURR (line: 86)
+#                                 |                           |                   |   +- nd_vid: :matched
+#                                 |                           |                   |   +- nd_value:
+#                                 |                           |                   |       @ NODE_CALL (line: 86)
+#                                 |                           |                   |       +- nd_mid: :==
+#                                 |                           |                   |       +- nd_recv:
+#                                 |                           |                   |       |   @ NODE_DVAR (line: 86)
+#                                 |                           |                   |       |   +- nd_vid: :token
+#                                 |                           |                   |       +- nd_args:
+#                                 |                           |                   |           @ NODE_ARRAY (line: 86)
+#                                 |                           |                   |           +- nd_alen: 1
+#                                 |                           |                   |           +- nd_head:
+#                                 |                           |                   |           |   @ NODE_CALL (line: 86)
+#                                 |                           |                   |           |   +- nd_mid: :token
+#                                 |                           |                   |           |   +- nd_recv:
+#                                 |                           |                   |           |   |   @ NODE_CALL (line: 86)
+#                                 |                           |                   |           |   |   +- nd_mid: :[]
+#                                 |                           |                   |           |   |   +- nd_recv:
+#                                 |                           |                   |           |   |   |   @ NODE_DVAR (line: 86)
+#                                 |                           |                   |           |   |   |   +- nd_vid: :search_pattern
+#                                 |                           |                   |           |   |   +- nd_args:
+#                                 |                           |                   |           |   |       @ NODE_ARRAY (line: 86)
+#                                 |                           |                   |           |   |       +- nd_alen: 1
+#                                 |                           |                   |           |   |       +- nd_head:
+#                                 |                           |                   |           |   |       |   @ NODE_DVAR (line: 86)
+#                                 |                           |                   |           |   |       |   +- nd_vid: :idx
+#                                 |                           |                   |           |   |       +- nd_next:
+#                                 |                           |                   |           |   |           (null node)
+#                                 |                           |                   |           |   +- nd_args:
+#                                 |                           |                   |           |       (null node)
+#                                 |                           |                   |           +- nd_next:
+#                                 |                           |                   |               (null node)
+#                                 |                           |                   +- nd_next:
+#                                 |                           |                       @ NODE_BLOCK (line: 95)
+#                                 |                           |                       +- nd_head:
+#                                 |                           |                       |   @ NODE_IF (line: 89)
+#                                 |                           |                       |   +- nd_cond:
+#                                 |                           |                       |   |   @ NODE_OR (line: 89)
+#                                 |                           |                       |   |   +- nd_1st:
+#                                 |                           |                       |   |   |   @ NODE_DVAR (line: 89)
+#                                 |                           |                       |   |   |   +- nd_vid: :matched
+#                                 |                           |                       |   |   +- nd_2nd:
+#                                 |                           |                       |   |       @ NODE_DVAR (line: 89)
+#                                 |                           |                       |   |       +- nd_vid: :space
+#                                 |                           |                       |   +- nd_body:
+#                                 |                           |                       |   |   @ NODE_BLOCK (line: 90)
+#                                 |                           |                       |   |   +- nd_head:
+#                                 |                           |                       |   |   |   @ NODE_IF (line: 90)
+#                                 |                           |                       |   |   |   +- nd_cond:
+#                                 |                           |                       |   |   |   |   @ NODE_CALL (line: 90)
+#                                 |                           |                       |   |   |   |   +- nd_mid: :zero?
+#                                 |                           |                       |   |   |   |   +- nd_recv:
+#                                 |                           |                       |   |   |   |   |   @ NODE_DVAR (line: 90)
+#                                 |                           |                       |   |   |   |   |   +- nd_vid: :idx
+#                                 |                           |                       |   |   |   |   +- nd_args:
+#                                 |                           |                       |   |   |   |       (null node)
+#                                 |                           |                       |   |   |   +- nd_body:
+#                                 |                           |                       |   |   |   |   @ NODE_DASGN (line: 90)
+#                                 |                           |                       |   |   |   |   +- nd_vid: :first
+#                                 |                           |                       |   |   |   |   +- nd_value:
+#                                 |                           |                       |   |   |   |       @ NODE_DVAR (line: 90)
+#                                 |                           |                       |   |   |   |       +- nd_vid: :line
+#                                 |                           |                       |   |   |   +- nd_else:
+#                                 |                           |                       |   |   |       (null node)
+#                                 |                           |                       |   |   +- nd_next:
+#                                 |                           |                       |   |       @ NODE_BLOCK (line: 91)
+#                                 |                           |                       |   |       +- nd_head:
+#                                 |                           |                       |   |       |   @ NODE_DASGN (line: 91)
+#                                 |                           |                       |   |       |   +- nd_vid: :last
+#                                 |                           |                       |   |       |   +- nd_value:
+#                                 |                           |                       |   |       |       @ NODE_DVAR (line: 91)
+#                                 |                           |                       |   |       |       +- nd_vid: :line
+#                                 |                           |                       |   |       +- nd_next:
+#                                 |                           |                       |   |           @ NODE_BLOCK (line: 92)
+#                                 |                           |                       |   |           +- nd_head:
+#                                 |                           |                       |   |           |   @ NODE_DASGN (line: 92)
+#                                 |                           |                       |   |           |   +- nd_vid: :idx
+#                                 |                           |                       |   |           |   +- nd_value:
+#                                 |                           |                       |   |           |       @ NODE_CALL (line: 92)
+#                                 |                           |                       |   |           |       +- nd_mid: :+
+#                                 |                           |                       |   |           |       +- nd_recv:
+#                                 |                           |                       |   |           |       |   @ NODE_DVAR (line: 92)
+#                                 |                           |                       |   |           |       |   +- nd_vid: :idx
+#                                 |                           |                       |   |           |       +- nd_args:
+#                                 |                           |                       |   |           |           @ NODE_ARRAY (line: 92)
+#                                 |                           |                       |   |           |           +- nd_alen: 1
+#                                 |                           |                       |   |           |           +- nd_head:
+#                                 |                           |                       |   |           |           |   @ NODE_LIT (line: 92)
+#                                 |                           |                       |   |           |           |   +- nd_lit: 1
+#                                 |                           |                       |   |           |           +- nd_next:
+#                                 |                           |                       |   |           |               (null node)
+#                                 |                           |                       |   |           +- nd_next:
+#                                 |                           |                       |   |               (null node)
+#                                 |                           |                       |   +- nd_else:
+#                                 |                           |                       |       @ NODE_MASGN (line: 94)
+#                                 |                           |                       |       +- nd_value:
+#                                 |                           |                       |       |   @ NODE_ARRAY (line: 94)
+#                                 |                           |                       |       |   +- nd_alen: 3
+#                                 |                           |                       |       |   +- nd_head:
+#                                 |                           |                       |       |   |   @ NODE_LIT (line: 94)
+#                                 |                           |                       |       |   |   +- nd_lit: 0
+#                                 |                           |                       |       |   +- nd_next:
+#                                 |                           |                       |       |       @ NODE_ARRAY (line: 94)
+#                                 |                           |                       |       |       +- nd_alen: 140569869481560
+#                                 |                           |                       |       |       +- nd_head:
+#                                 |                           |                       |       |       |   @ NODE_LIT (line: 94)
+#                                 |                           |                       |       |       |   +- nd_lit: 0
+#                                 |                           |                       |       |       +- nd_next:
+#                                 |                           |                       |       |           @ NODE_ARRAY (line: 94)
+#                                 |                           |                       |       |           +- nd_alen: 1
+#                                 |                           |                       |       |           +- nd_head:
+#                                 |                           |                       |       |           |   @ NODE_LIT (line: 94)
+#                                 |                           |                       |       |           |   +- nd_lit: 0
+#                                 |                           |                       |       |           +- nd_next:
+#                                 |                           |                       |       |               (null node)
+#                                 |                           |                       |       +- nd_head:
+#                                 |                           |                       |       |   @ NODE_ARRAY (line: 94)
+#                                 |                           |                       |       |   +- nd_alen: 3
+#                                 |                           |                       |       |   +- nd_head:
+#                                 |                           |                       |       |   |   @ NODE_DASGN (line: 94)
+#                                 |                           |                       |       |   |   +- nd_vid: :idx
+#                                 |                           |                       |       |   |   +- nd_value:
+#                                 |                           |                       |       |   |       (null node)
+#                                 |                           |                       |       |   +- nd_next:
+#                                 |                           |                       |       |       @ NODE_ARRAY (line: 94)
+#                                 |                           |                       |       |       +- nd_alen: 140569869481880
+#                                 |                           |                       |       |       +- nd_head:
+#                                 |                           |                       |       |       |   @ NODE_DASGN (line: 94)
+#                                 |                           |                       |       |       |   +- nd_vid: :first
+#                                 |                           |                       |       |       |   +- nd_value:
+#                                 |                           |                       |       |       |       (null node)
+#                                 |                           |                       |       |       +- nd_next:
+#                                 |                           |                       |       |           @ NODE_ARRAY (line: 94)
+#                                 |                           |                       |       |           +- nd_alen: 1
+#                                 |                           |                       |       |           +- nd_head:
+#                                 |                           |                       |       |           |   @ NODE_DASGN (line: 94)
+#                                 |                           |                       |       |           |   +- nd_vid: :last
+#                                 |                           |                       |       |           |   +- nd_value:
+#                                 |                           |                       |       |           |       (null node)
+#                                 |                           |                       |       |           +- nd_next:
+#                                 |                           |                       |       |               (null node)
+#                                 |                           |                       |       +- nd_args:
+#                                 |                           |                       |           (null node)
+#                                 |                           |                       +- nd_next:
+#                                 |                           |                           (null node)
+#                                 |                           +- nd_next:
+#                                 |                               @ NODE_BLOCK (line: 102)
+#                                 |                               +- nd_head:
+#                                 |                               |   @ NODE_CASE (line: 98)
+#                                 |                               |   +- nd_head:
+#                                 |                               |   |   @ NODE_LVAR (line: 98)
+#                                 |                               |   |   +- nd_vid: :format
+#                                 |                               |   +- nd_body:
+#                                 |                               |       @ NODE_WHEN (line: 102)
+#                                 |                               |       +- nd_head:
+#                                 |                               |       |   @ NODE_ARRAY (line: 99)
+#                                 |                               |       |   +- nd_alen: 1
+#                                 |                               |       |   +- nd_head:
+#                                 |                               |       |   |   @ NODE_LIT (line: 99)
+#                                 |                               |       |   |   +- nd_lit: :counted
+#                                 |                               |       |   +- nd_next:
+#                                 |                               |       |       (null node)
+#                                 |                               |       +- nd_body:
+#                                 |                               |       |   @ NODE_ITER (line: 99)
+#                                 |                               |       |   +- nd_iter:
+#                                 |                               |       |   |   @ NODE_CALL (line: 99)
+#                                 |                               |       |   |   +- nd_mid: :map
+#                                 |                               |       |   |   +- nd_recv:
+#                                 |                               |       |   |   |   @ NODE_ITER (line: 99)
+#                                 |                               |       |   |   |   +- nd_iter:
+#                                 |                               |       |   |   |   |   @ NODE_CALL (line: 99)
+#                                 |                               |       |   |   |   |   +- nd_mid: :group_by
+#                                 |                               |       |   |   |   |   +- nd_recv:
+#                                 |                               |       |   |   |   |   |   @ NODE_LVAR (line: 99)
+#                                 |                               |       |   |   |   |   |   +- nd_vid: :line_pairs
+#                                 |                               |       |   |   |   |   +- nd_args:
+#                                 |                               |       |   |   |   |       (null node)
+#                                 |                               |       |   |   |   +- nd_body:
+#                                 |                               |       |   |   |       @ NODE_SCOPE (line: 99)
+#                                 |                               |       |   |   |       +- nd_tbl: :el
+#                                 |                               |       |   |   |       +- nd_args:
+#                                 |                               |       |   |   |       |   @ NODE_ARGS (line: 99)
+#                                 |                               |       |   |   |       |   +- nd_ainfo->pre_args_num: 1
+#                                 |                               |       |   |   |       |   +- nd_ainfo->pre_init:
+#                                 |                               |       |   |   |       |   |   (null node)
+#                                 |                               |       |   |   |       |   +- nd_ainfo->post_args_num: 0
+#                                 |                               |       |   |   |       |   +- nd_ainfo->post_init:
+#                                 |                               |       |   |   |       |   |   (null node)
+#                                 |                               |       |   |   |       |   +- nd_ainfo->first_post_arg: (null)
+#                                 |                               |       |   |   |       |   +- nd_ainfo->rest_arg: (null)
+#                                 |                               |       |   |   |       |   +- nd_ainfo->block_arg: (null)
+#                                 |                               |       |   |   |       |   +- nd_ainfo->opt_args:
+#                                 |                               |       |   |   |       |   |   (null node)
+#                                 |                               |       |   |   |       |   +- nd_ainfo->kw_args:
+#                                 |                               |       |   |   |       |       (null node)
+#                                 |                               |       |   |   |       |   +- nd_ainfo->kw_rest_arg:
+#                                 |                               |       |   |   |       |       (null node)
+#                                 |                               |       |   |   |       +- nd_body:
+#                                 |                               |       |   |   |           @ NODE_DVAR (line: 99)
+#                                 |                               |       |   |   |           +- nd_vid: :el
+#                                 |                               |       |   |   +- nd_args:
+#                                 |                               |       |   |       (null node)
+#                                 |                               |       |   +- nd_body:
+#                                 |                               |       |       @ NODE_SCOPE (line: 99)
+#                                 |                               |       |       +- nd_tbl: :k,:v
+#                                 |                               |       |       +- nd_args:
+#                                 |                               |       |       |   @ NODE_ARGS (line: 99)
+#                                 |                               |       |       |   +- nd_ainfo->pre_args_num: 2
+#                                 |                               |       |       |   +- nd_ainfo->pre_init:
+#                                 |                               |       |       |   |   (null node)
+#                                 |                               |       |       |   +- nd_ainfo->post_args_num: 0
+#                                 |                               |       |       |   +- nd_ainfo->post_init:
+#                                 |                               |       |       |   |   (null node)
+#                                 |                               |       |       |   +- nd_ainfo->first_post_arg: (null)
+#                                 |                               |       |       |   +- nd_ainfo->rest_arg: (null)
+#                                 |                               |       |       |   +- nd_ainfo->block_arg: (null)
+#                                 |                               |       |       |   +- nd_ainfo->opt_args:
+#                                 |                               |       |       |   |   (null node)
+#                                 |                               |       |       |   +- nd_ainfo->kw_args:
+#                                 |                               |       |       |       (null node)
+#                                 |                               |       |       |   +- nd_ainfo->kw_rest_arg:
+#                                 |                               |       |       |       (null node)
+#                                 |                               |       |       +- nd_body:
+#                                 |                               |       |           @ NODE_ARRAY (line: 99)
+#                                 |                               |       |           +- nd_alen: 2
+#                                 |                               |       |           +- nd_head:
+#                                 |                               |       |           |   @ NODE_CALL (line: 99)
+#                                 |                               |       |           |   +- nd_mid: :length
+#                                 |                               |       |           |   +- nd_recv:
+#                                 |                               |       |           |   |   @ NODE_DVAR (line: 99)
+#                                 |                               |       |           |   |   +- nd_vid: :v
+#                                 |                               |       |           |   +- nd_args:
+#                                 |                               |       |           |       (null node)
+#                                 |                               |       |           +- nd_next:
+#                                 |                               |       |               @ NODE_ARRAY (line: 99)
+#                                 |                               |       |               +- nd_alen: 140569869480480
+#                                 |                               |       |               +- nd_head:
+#                                 |                               |       |               |   @ NODE_DVAR (line: 99)
+#                                 |                               |       |               |   +- nd_vid: :k
+#                                 |                               |       |               +- nd_next:
+#                                 |                               |       |                   (null node)
+#                                 |                               |       +- nd_next:
+#                                 |                               |           @ NODE_WHEN (line: 102)
+#                                 |                               |           +- nd_head:
+#                                 |                               |           |   @ NODE_ARRAY (line: 100)
+#                                 |                               |           |   +- nd_alen: 1
+#                                 |                               |           |   +- nd_head:
+#                                 |                               |           |   |   @ NODE_LIT (line: 100)
+#                                 |                               |           |   |   +- nd_lit: :pairs
+#                                 |                               |           |   +- nd_next:
+#                                 |                               |           |       (null node)
+#                                 |                               |           +- nd_body:
+#                                 |                               |           |   @ NODE_LVAR (line: 100)
+#                                 |                               |           |   +- nd_vid: :line_pairs
+#                                 |                               |           +- nd_next:
+#                                 |                               |               @ NODE_LVAR (line: 101)
+#                                 |                               |               +- nd_vid: :line_pairs
+#                                 |                               +- nd_next:
+#                                 |                                   (null node)
+#                                 +- nd_next:
+#                                     @ NODE_BLOCK (line: 110)
+#                                     +- nd_head:
+#                                     |   @ NODE_DASGN_CURR (line: 110)
+#                                     |   +- nd_vid: :code
+#                                     |   +- nd_value:
+#                                     |       @ NODE_CALL (line: 110)
+#                                     |       +- nd_mid: :read
+#                                     |       +- nd_recv:
+#                                     |       |   @ NODE_CONST (line: 110)
+#                                     |       |   +- nd_vid: :File
+#                                     |       +- nd_args:
+#                                     |           @ NODE_ARRAY (line: 110)
+#                                     |           +- nd_alen: 1
+#                                     |           +- nd_head:
+#                                     |           |   @ NODE_STR (line: 110)
+#                                     |           |   +- nd_lit: "code.rb"
+#                                     |           +- nd_next:
+#                                     |               (null node)
+#                                     +- nd_next:
+#                                         @ NODE_BLOCK (line: 114)
+#                                         +- nd_head:
+#                                         |   @ NODE_DASGN_CURR (line: 114)
+#                                         |   +- nd_vid: :pattern
+#                                         |   +- nd_value:
+#                                         |       @ NODE_STR (line: 114)
+#                                         |       +- nd_lit: "const|period|ident|"
+#                                         +- nd_next:
+#                                             @ NODE_BLOCK (line: 118)
+#                                             +- nd_head:
+#                                             |   @ NODE_FCALL (line: 118)
+#                                             |   +- nd_mid: :find
+#                                             |   +- nd_args:
+#                                             |       @ NODE_ARRAY (line: 118)
+#                                             |       +- nd_alen: 2
+#                                             |       +- nd_head:
+#                                             |       |   @ NODE_DVAR (line: 118)
+#                                             |       |   +- nd_vid: :pattern
+#                                             |       +- nd_next:
+#                                             |           @ NODE_ARRAY (line: 118)
+#                                             |           +- nd_alen: 140569869478320
+#                                             |           +- nd_head:
+#                                             |           |   @ NODE_DVAR (line: 118)
+#                                             |           |   +- nd_vid: :code
+#                                             |           +- nd_next:
+#                                             |               (null node)
+#                                             +- nd_next:
+#                                                 @ NODE_BLOCK (line: 120)
+#                                                 +- nd_head:
+#                                                 |   @ NODE_DASGN_CURR (line: 120)
+#                                                 |   +- nd_vid: :pattern
+#                                                 |   +- nd_value:
+#                                                 |       @ NODE_FCALL (line: 120)
+#                                                 |       +- nd_mid: :patternize
+#                                                 |       +- nd_args:
+#                                                 |           @ NODE_ARRAY (line: 120)
+#                                                 |           +- nd_alen: 1
+#                                                 |           +- nd_head:
+#                                                 |           |   @ NODE_STR (line: 120)
+#                                                 |           |   +- nd_lit: "op.on('-p port', 'set the port (default is 4567)') "
+#                                                 |           +- nd_next:
+#                                                 |               (null node)
+#                                                 +- nd_next:
+#                                                     @ NODE_BLOCK (line: 121)
+#                                                     +- nd_head:
+#                                                     |   @ NODE_FCALL (line: 121)
+#                                                     |   +- nd_mid: :p
+#                                                     |   +- nd_args:
+#                                                     |       @ NODE_ARRAY (line: 121)
+#                                                     |       +- nd_alen: 1
+#                                                     |       +- nd_head:
+#                                                     |       |   @ NODE_FCALL (line: 121)
+#                                                     |       |   +- nd_mid: :find
+#                                                     |       |   +- nd_args:
+#                                                     |       |       @ NODE_ARRAY (line: 121)
+#                                                     |       |       +- nd_alen: 2
+#                                                     |       |       +- nd_head:
+#                                                     |       |       |   @ NODE_DVAR (line: 121)
+#                                                     |       |       |   +- nd_vid: :pattern
+#                                                     |       |       +- nd_next:
+#                                                     |       |           @ NODE_ARRAY (line: 121)
+#                                                     |       |           +- nd_alen: 140569869477680
+#                                                     |       |           +- nd_head:
+#                                                     |       |           |   @ NODE_DVAR (line: 121)
+#                                                     |       |           |   +- nd_vid: :code
+#                                                     |       |           +- nd_next:
+#                                                     |       |               (null node)
+#                                                     |       +- nd_next:
+#                                                     |           (null node)
+#                                                     +- nd_next:
+#                                                         (null node)
